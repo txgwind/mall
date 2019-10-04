@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74b042c7-1c67-4253-944c-8ffde14d4c0e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mall-search/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/mall-search/src/main/resources/application-dev.yml" afterDir="false" />
-    </list>
+    <list default="true" id="74b042c7-1c67-4253-944c-8ffde14d4c0e" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/mall-search/target/" />
     <ignored path="$PROJECT_DIR$/mall-demo/target/" />
@@ -61,8 +59,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mall-search/src/main/resources/application-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="576">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -520,12 +518,12 @@
       <updated>1569971591939</updated>
       <workItem from="1569971595877" duration="14801000" />
       <workItem from="1570113618768" duration="1532000" />
-      <workItem from="1570151690746" duration="3801000" />
+      <workItem from="1570151690746" duration="3970000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20134000" />
+    <option name="totallyTimeSpent" value="20303000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -878,8 +876,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mall-search/src/main/resources/application-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="576">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
         </state>
       </provider>
     </entry>
