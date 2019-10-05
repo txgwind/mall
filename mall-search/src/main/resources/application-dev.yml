@@ -16,5 +16,5 @@ spring:
     elasticsearch:
       repositories:
         enabled: true
-      cluster-nodes: 10.168.1.225:9300
+      cluster-nodes: 172.12.158.225:9300
       cluster-name: elasticsearch # es集群的名称

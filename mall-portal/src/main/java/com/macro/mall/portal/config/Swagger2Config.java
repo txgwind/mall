@@ -31,7 +31,7 @@ public class Swagger2Config {
         return new ApiInfoBuilder()
                 .title("mall前台系统")
                 .description("mall前台系统")
-                .contact("macro")
+                .contact("macro").termsOfServiceUrl("http://txg000.vicp.io/java/mall-portal/")
                 .version("1.0")
                 .build();
     }
