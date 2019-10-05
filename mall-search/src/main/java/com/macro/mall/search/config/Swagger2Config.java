@@ -20,6 +20,7 @@ public class Swagger2Config {
     @Bean
     public Docket createRestApi(){
         return new Docket(DocumentationType.SWAGGER_2)
+                .host("txg000.vicp.io/java/mall-portal")
                 .apiInfo(apiInfo())
                 .select()
                 .apis(RequestHandlerSelectors.basePackage("com.macro.mall.search.controller"))
