@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="lib/weui.min.css">
+		<link rel="stylesheet" href="css/jquery-weui.css">
+		<link rel="stylesheet" href="css/style.css">
+		<style>
+			body{background: #1e1e28;}
+			.weui-panel__hd:after {
+				border: none
+			}
+
+			.weui-panel:after {
+				border: none
+			}
+
+			.weui-cell:before {
+				border-top: 0px
+			}
+
+			.page__pd {
+				min-height: 500px
+			}
+
+			.weui-navbar {
+				background: #1e1e28;
+			}
+
+			.weui-navbar__item:after {
+				border-right: 0px
+			}
+
+			.weui-navbar__item.weui-bar__item--on {
+				background:url(images/gb.png) no-repeat center bottom;
+				background-size: 20%;
+				color: #ffffff;
+			}
+
+			.weui-panel_access {
+				border-top: 8px solid #e5e5e5
+			}
+
+			.weui-cell__bd {
+				text-align: right;
+				padding-right: 15px;
+				padding-bottom: 15px
+			}
+
+			.weui-cell_link .weui-cell__bd {
+				text-align: left;
+				padding-bottom: 0px;
+				font-size: 15px;
+			}
+
+			.weui-cell__bd span {
+				color: #f30
+			}
+
+			.weui-cell__ft {
+				float: right;
+				font-size: 14px;
+			}
+
+			.weui-media-box {
+				padding: 2px 15px
+			}
+
+			.weui-cell__bd a {
+				color: #f3ad11;
+				border: 1px solid #f3ad11;
+				float: left;
+				margin-top: 2px;
+				font-size: 13px;
+				border-radius: 5px;
+				display: block;
+				width: 70px;
+				height: 20px;
+				text-align: center;
+				margin-left: 85px;
+			}
+
+			.weui-media-box {
+				padding: 0px 15px 15px
+			}
+
+			.weui-cell__bd {
+				color: #333
+			}
+
+			.weui-media-box__desc-tech {
+				padding: 0px 15px;
+				color: #999;
+				font-size: 14px;
+			}
+
+			.weui-cell__ft {
+				color: #f3ad11
+			}
+
+			.tech-s {
+				color: #1296db
+			}
+		</style>
+	</head>
+
+	<body ontouchstart>
+		<div class="page__pd">
+			<div class="moSearch">
+				<p><span>点击查询相关信息</span></p>				
+			</div>
+			<p style="clear: both;"></p>
+			<div class="weui-tab">				
+				<div class="weui-navbar">
+					<a class="weui-navbar__item weui-bar__item--on" href="#tab1">
+						关注
+					</a>
+					<a class="weui-navbar__item" href="#tab2">
+						新鲜
+					</a>
+					<a class="weui-navbar__item" href="#tab3">
+						糖主
+					</a>
+				</div>
+				<div class="weui-tab__bd">
+					<div id="tab1" class="weui-tab__bd-item weui-tab__bd-item--active">						
+						   <ul class="con_index" >
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   	<li>
+						   		<p class="con_indexP1"><img src="images/img2.jpg" /></p>
+						   		<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+						   		<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+						   		<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						   	</li>
+						   </ul>
+						
+					</div>
+					<div id="tab2" class="weui-tab__bd-item">
+						<ul class="con_index" >
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						<li>
+							<p class="con_indexP1"><img src="images/img3.jpg" /></p>
+							<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+							<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+							<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+						</li>
+						</ul>
+					</div>
+					<div id="tab3" class="weui-tab__bd-item">
+							<ul class="con_index" >
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							<li>
+								<p class="con_indexP1"><img src="images/img4.jpg" /></p>
+								<p class="con_indexP2">大学生必备套装大学生必备套装</p>
+								<p class="con_indexP3">￥100.00<span>京东:￥900.00</span></p>
+								<p class="con_indexP4"><img src="images/loveOld.png" /></p>
+							</li>
+							</ul>
+					</div>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="weui-tabbar">
+			<a href="index.html" class="weui-tabbar__item weui-tabbar__item-index weui-bar__item--on">
+				<div class="weui-tabbar__icon">
+					<img src="images/tab1.png" alt="">
+				</div>
+				<p class="weui-tabbar__label">首页</p>
+			</a>
+			<a href="ShoppingMall.html" class="weui-tabbar__item weui-tabbar__item-index">
+				<div class="weui-tabbar__icon">
+					<img src="images/tab4.png" alt="">
+				</div>
+				<p class="weui-tabbar__label">商城</p>
+			</a>
+			<!--连锁-->
+			<a href="#" class="weui-tabbar__item weui-tabbar__item-index ">
+				<div class="weui-tabbar__icon" style="height:50px;width:50px;margin-top:-15px; background: #f02c2b; border-radius: 50px;">
+					<img style="width: 30px; height: 30px; margin-top: 10px;" src="images/store_1.png" alt="">
+				</div>
+			</a>
+			<!--连锁-->
+			<a href="Communicate.html" class="weui-tabbar__item weui-tabbar__item-index ">
+				<div class="weui-tabbar__icon">
+					<img src="images/tab6.png" alt="">
+				</div>
+				<p class="weui-tabbar__label">消息</p>
+			</a>
+			<a href="PersonaCenter.html" class="weui-tabbar__item weui-tabbar__item-index">
+				<div class="weui-tabbar__icon">
+					<img src="images/tab8.png" alt="">
+				</div>
+				<p class="weui-tabbar__label">我的</p>
+			</a>
+		</div>
+
+		<script src="lib/jquery-2.1.4.js"></script>
+		<script src="lib/fastclick.js"></script>
+		<script>
+			$(function() {
+				FastClick.attach(document.body);
+			});
+		</script>
+		<script src="js/jquery-weui.js"></script>
+
+	</body>
+
+</html>
